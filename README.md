@@ -131,73 +131,24 @@ Terminal:
 
 ![Проверка контейнера](screenshots/Часть4/Проверка-контейнера.png)
 
+### Часть 5: Отчет и добавление скриншотов.
 
+Cкриншот терминала с запуском команды docker run hello-world, где отображено сообщение "Hello from Docker!":
+
+![Скриншот](screenshots/Часть5/Скриншот.png)
  
+Скриншот с запуском вашего собственного Docker-контейнера, где видно сообщение Hello, DevOps World!:
 
+![Скриншот2](screenshots/Часть5/Скриншот2.png)
 
+2.Добавление скриншотов в репозиторий
 
+![Добавление скриншотов в репозиторий](screenshots/Часть5/Добавление-скриншотов-в-репозиторий.png)
 
+## Проблемы 
 
+При решение тестового задания проблем не было. 
 
+## Заключение
 
-
-
-
-\# Лабораторная работа: Docker
-
-
-
-
-\## Результаты выполнения
-
-
-
-\### 1. Запуск тестового контейнера hello-world
-
-
-
-!\[Запуск hello-world контейнера](screenshots/hello-world.png)
-
-
-
-\*Рисунок 1 - Успешный запуск контейнера hello-world с сообщением "Hello from Docker!"\*
-
-
-
-\### 2. Запуск собственного Docker-контейнера
-
-
-
-!\[Запуск my-first-image контейнера](screenshots/my-first-image.png)
-
-
-
-\*Рисунок 2 - Выполнение Python-скрипта внутри Docker-контейнера с выводом "Hello, DevOps World!"\*
-
-
-
-\## Файлы проекта
-
-
-
-\- `Dockerfile` - инструкция для сборки образа
-
-\- `script.py` - Python-скрипт с выводом сообщения
-
-![hello-world](screenshots/hello-world.png)
-![my-first-image](screenshots/my-first-image.png)
-
-git add README.md
-git commit -m "Fix image paths in README"
-git push
-
-# Docker Lab Results
-
-## Скриншоты
-
-### Hello World Container
-![docker run hello-world result](screenshots/hello-world.png)
-
-### Custom Container
-![docker run my-first-image result](screenshots/my-first-image.png)
-
+Все шаги задания выполнены. Репозиторий содержит все необходимые файлы: "README.md", "Dockerfile", "script.py" и папку "screenshots" со скриншотами.
