@@ -48,5 +48,20 @@
 
 \- `script.py` - Python-скрипт с выводом сообщения
 
+![hello-world](screenshots/hello-world.png)
+![my-first-image](screenshots/my-first-image.png)
 
+git add README.md
+git commit -m "Fix image paths in README"
+git push
+
+# Docker Lab Results
+
+## Скриншоты
+
+### Hello World Container
+![docker run hello-world result](screenshots/hello-world.png)
+
+### Custom Container
+![docker run my-first-image result](screenshots/my-first-image.png)
 
